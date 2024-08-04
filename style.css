@@ -30,10 +30,65 @@ ul{
 .second{
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.second_text{
+    margin-right: auto;
+    flex: auto;
+    padding: 16px;
 }
 
 .hero_main{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.second_image{
+    gap: 24px;
+    margin: 24px;
+    align-items: center;
+}
+
+.second_image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button{
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button1{
+    border: none;
+    margin-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.third{
+    text-align: center;
+}
+
+.info_header{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    margin: 24px;
+}
+
+.third_cont{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.third_cont_img{
+    max-width: 200px;
 }
