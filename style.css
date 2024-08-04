@@ -26,3 +26,14 @@ ul{
     align-items: center;
     margin-right: 10px;
 }
+
+.second{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero_main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
